@@ -10,6 +10,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
+// Creating the characteristics of each page and section
   public appPage = [
     {
       title: 'About',
@@ -19,7 +20,7 @@ export class AppComponent {
     {
       title: 'Contact',
       url: '/contact',
-      icon: 'list'
+      icon: 'at'
     },
     {
       title: 'CV',

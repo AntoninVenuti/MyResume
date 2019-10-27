@@ -7,6 +7,7 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+// Adding two fields in the class
   username: string;
   password: string;
 
@@ -15,9 +16,6 @@ export class HomePage {
 
 // Check if the fields are empty and if they are less than two characters
 login() {
-
-  console.log(this.username);
-  console.log(this.password);
 
   if (this.username != null || this.password != null) {
 
